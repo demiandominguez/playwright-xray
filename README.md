@@ -335,7 +335,7 @@ and `client_secret` are ignored, and the reporter will produce a `xray-payload.j
 - Please ensure that you correctly type the e.g. testKey in the test or you might encounter {"error":"Invalid JQL query"}
   respnse, e.g. if you type TES- 49 instead of TES-49. 
 
-- The option `addTestsToPlan` can be used to add test to a test plan through the test execution. When this option is enabled, it will tell to Xray to associate Tests to the Test Plan when associating a Test Execution to the Test Plan.
+- The option `addTestsToPlan` can be used to add test to a test plan through the test execution. When this option is enabled, it will tell Xray to associate the tests listed in the test execution that are not associated to the Test Plan to said test plan.
 
 ## License
 
