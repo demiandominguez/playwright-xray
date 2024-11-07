@@ -12,6 +12,7 @@ export interface XrayTestResult {
   testExecutionKey?: string;
   info: XrayInfo;
   tests?: XrayTest[];
+  addTestsToPlan?: boolean;
 }
 
 export interface XrayInfo {

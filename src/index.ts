@@ -46,6 +46,7 @@ class XrayReporter implements Reporter {
         testEnvironments: this.options.testEnvironments,
         version: this.options.version,
       },
+      addTestsToPlan: this.options.addTestsToPlan,
       tests: [] as XrayTest[],
     };
     this.testResults = testResults;

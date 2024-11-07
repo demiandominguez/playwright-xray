@@ -17,6 +17,7 @@ export interface XrayOptions {
   projectKey: string;
   testPlan: string;
   testExecution?: string;
+  addTestsToPlan?: boolean;
   revision?: string;
   description?: string;
   testEnvironments?: string[];

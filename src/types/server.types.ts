@@ -20,6 +20,7 @@ export interface XrayJsonImportExecution {
     startDate: string;
     finishDate: string;
   };
+  addTestsToPlan?: boolean;
   tests: {
     comment: string;
     finish: string;
